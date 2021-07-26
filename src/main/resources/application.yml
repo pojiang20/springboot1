@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: zen
+  datasource:
+    druid:
+      url: jdbc:mysql://localhost:3306/myhaiyu?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=utf-8
+      username: root
+      password: 123
+      initial-size: 1
+      min-idle: 1
+      max-active: 20
+      test-on-borrow: true
+      driver-class-name: com.mysql.jdbc.Driver
+
+  mybatis:
+    mapper-locations: classpath:mapper/*.xml
+
+  resources:
+    static-locations: classpath:static/,file:static/

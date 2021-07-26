@@ -1,0 +1,40 @@
+.
+├── README.md
+├── a.txt
+├── pom.xml
+├── springboot1.iml
+└── src
+    ├── main
+    │   ├── java
+    │   │   ├── com
+    │   │   │   └── amo
+    │   │   │       └── springboot1
+    │   │   │           ├── Springboot1Application.java
+    │   │   │           ├── common
+    │   │   │           ├── config
+    │   │   │           ├── controller
+    │   │   │           ├── dao
+    │   │   │           ├── dto
+    │   │   │           ├── filter
+    │   │   │           ├── pojo
+    │   │   │           ├── response
+    │   │   │           ├── service
+    │   │   │           └── shiro
+    │   │   └── tk
+    │   │       └── mapper
+    │   └── resources
+    │       ├── application.properties
+    │       ├── application.yml
+    │       ├── config
+    │       ├── mapper
+    │       ├── sql
+    │       ├── static
+    │       └── templates
+    └── test
+        └── java
+            └── com
+                └── amo
+                    └── springboot1
+                        └── Springboot1ApplicationTests.java
+
+29 directories, 8 files
